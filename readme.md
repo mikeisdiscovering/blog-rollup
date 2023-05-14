@@ -40,8 +40,11 @@ make install
 ```
 check your installation by running `ignite version`
 
-
-4. Start your local blog node.
+4. install jq
+```
+sudo apt-get install jq -y
+```
+5. Start your local blog node.
 
 `bash init-local.sh`
 
